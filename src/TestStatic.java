@@ -4,6 +4,9 @@
 public class TestStatic {
     private static Integer count = 0;
 
+    boolean master;
+    boolean valueInMaster;
+    Integer newIntegerDev;
     Integer newIntegerDev;
     boolean development;
     boolean valueA;
