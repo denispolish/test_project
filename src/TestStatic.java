@@ -6,9 +6,12 @@ public class TestStatic {
 
     boolean master;
     boolean valueInMaster;
+    boolean development;
+    boolean valueA;
 
     public TestStatic() {
         count++;
+        development = true;
         master = true;
         System.out.println(count);
     }
