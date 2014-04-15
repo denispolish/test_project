@@ -4,9 +4,11 @@
 public class TestStatic {
     private static Integer count = 0;
 
+    boolean value;
+
     public TestStatic() {
         count++;
-
+        value = true;
         System.out.println(count);
     }
 
