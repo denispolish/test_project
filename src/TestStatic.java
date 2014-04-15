@@ -6,6 +6,10 @@ public class TestStatic {
 
     boolean master;
     boolean valueInMaster;
+    boolean master;
+    boolean valueInMaster;
+    Integer newIntegerDev;
+    Integer newIntegerDev;
     boolean development;
     boolean valueA;
 
@@ -19,5 +23,6 @@ public class TestStatic {
     public static void main(String[] arg) {
         TestStatic t1 = new TestStatic();
         TestStatic t2 = new TestStatic();
+        System.out.print("Bug fixed");
     }
 }
