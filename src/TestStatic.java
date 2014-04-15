@@ -4,11 +4,12 @@
 public class TestStatic {
     private static Integer count = 0;
 
-    boolean value;
+    boolean master;
+    boolean valueInMaster;
 
     public TestStatic() {
         count++;
-        value = true;
+        master = true;
         System.out.println(count);
     }
 
