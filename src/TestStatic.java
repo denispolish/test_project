@@ -4,6 +4,7 @@
 public class TestStatic {
     private static Integer count = 0;
 
+    Integer newIntegerDev;
     boolean development;
     boolean valueA;
 
@@ -16,5 +17,6 @@ public class TestStatic {
     public static void main(String[] arg) {
         TestStatic t1 = new TestStatic();
         TestStatic t2 = new TestStatic();
+        System.out.print("Bug fixed");
     }
 }
